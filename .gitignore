@@ -1,0 +1,41 @@
+# Data (ignore downloaded datasets, keep source code)
+data/Kvasir-SEG/
+data/images/
+data/masks/
+data/*.png
+data/*.jpg
+data/*.zip
+*.zip
+
+# Results (regenerated from training)
+results/
+figures/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model checkpoints
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+.config/
+.sample_data/
+
+# Virtual environments
+env/
+venv/
+.env
