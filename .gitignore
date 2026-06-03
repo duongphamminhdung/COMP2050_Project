@@ -39,3 +39,9 @@ Thumbs.db
 env/
 venv/
 .env
+
+# Claude config (local only)
+CLAUDE.md
+CLAUDE-activeContext.md
+CLAUDE.local.md
+.claude-z/
